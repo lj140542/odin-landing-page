@@ -126,3 +126,22 @@ ul {
     height: 100px;
     width: 100px;
 }
+
+/* THIRD */ 
+.third {
+    padding: 80px 200px;
+    background-color: #E5E7EB;
+    color:#1F2937
+}
+
+.third .citation {
+    font-size: 36px;
+    font-style:  italic;
+    font-weight: lighter;
+}
+
+.third .source {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
