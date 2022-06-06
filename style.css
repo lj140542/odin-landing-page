@@ -145,3 +145,38 @@ ul {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+/* FOURTH */
+.fourth {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 70px 120px;
+    padding: 40px 80px;
+}
+
+.fourth div {
+    flex: 2;
+    color: #F9FAF8;
+}
+
+.fourth p {
+    margin: 0px;
+}
+
+.fourth .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fourth .subtext {
+    font-size: 12px;
+}
+
+.fourth button {
+    align-self: center;
+    border: 2px solid #F9FAF8;
+    min-height: 20px;
+    min-width: 120px;
+    flex: 1;
+}
