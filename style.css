@@ -10,9 +10,15 @@ button {
     color: #F9FAF8;
     font-weight: bold;
     border-width: 0px;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 8px 24px;
     max-width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
 /* FIRST */
@@ -37,9 +43,8 @@ button {
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .header ul {
-    list-style-type: none;
-    display: flex;
     gap: 18px;
 }
 
@@ -86,4 +91,38 @@ button {
 
 .intro .right p {
     margin: 12px 12px;
+}
+
+/* SECOND */
+.second {
+    text-align: center;
+    height: auto;
+}
+
+.second h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.second ul {
+    padding: 10px 180px;
+    display: flex;
+    gap: 18px;
+}
+
+.second li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #717171;
+
+}
+
+.second .placeholder {
+    border: solid #3882F6 3px;
+    border-radius: 10%;
+    height: 100px;
+    width: 100px;
 }
